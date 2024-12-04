@@ -1,0 +1,115 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+/* Import Roboto from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.btnhover {
+  transition: transform 0.2s ease; 
+}
+.qbtn{
+  transition: 0.2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  border-radius: 10px;
+  
+}
+.qbtn:hover{
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transform: translateY(-10px) scale(1);
+}
+.btnhover:hover {
+  transform: scale(1.05); 
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.plushover{
+  transition: 0.2s ease;
+}
+.plushover:hover{
+  transform: scale(1.15);
+}
+
+.inputborder{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.logoshadow{
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(255, 115, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.parallelogram {
+  width: 50%;
+  background-image: url('./assets/hero.png'); 
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  color: white; 
+}
+
+
+.sidenav{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.card{
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  transform: scale(0.95);
+}
+.line{
+  width: full;
+  height: 1px;
+  border-radius: 50px;
+  background-color: rgb(216, 216, 216);
+}
+
+.pcard{
+  transition: 0.2s all;
+  transform: scale(0.9);
+}
+.pcard:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transform: translateY(-10px) scale(0.9);
+}
+
+.lable{
+  transform: scale(0.8);
+}
+
+.navbtn{
+  transition: 0.2s all;
+}
+.navbtn:hover{
+  transform: translateY(-5px) scale(1.05);
+}
+
+.pricingcard{
+  transition: 0.2s all;
+  transform: scale(0.9);
+  width: 30%;
+  margin: 0;
+  padding: 22px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.pricingcard:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transform: translateY(-10px) scale(0.9);
+}
+
+.boxshadow{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
